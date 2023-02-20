@@ -213,12 +213,13 @@ export default function Home() {
                 </p>
                 <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                   <div className="space-y-4 sm:mx-auto">
-                    <a
-                      href="#"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-indigo-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
-                    >
-                      Browse Now
-                    </a>
+                    <Link href="/modules" legacyBehavior>
+                      <a
+                        className="flex items-center justify-center rounded-md border border-transparent bg-indigo-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
+                      >
+                        Browse Now
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
